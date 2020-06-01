@@ -3,7 +3,7 @@ import { Map, GoogleApiWrapper, Marker, InfoWindow } from "google-maps-react"; /
 //añadir a App.js import MapContainer from "./components/maps.component";
 import  "./MapContainer.css";
 import { BrowserRouter as Router, Link} from "react-router-dom";
-import mapStyles from "./mapStyles";
+import mapStyles from "./mapStyles";  
 
 export class MapContainer extends Component {
   constructor(props) {
@@ -130,7 +130,10 @@ export class MapContainer extends Component {
             <h1 className= 'tituloMark'>{dato.datos_guardian.titulo}</h1></div>
           <div className="detail campoMarker">
           <h1 className= 'tituloMark'>Nombre guardian: </h1>
-          <div>{dato.nombre}</div></div>
+          <div className='nombreGuardianMarker'>{dato.nombre } {dato.apellido}</div></div>
+          <div className="detail campoMarker">
+          <h1 className= 'tituloMark'>Precio: </h1>
+          <div>{dato.datos_guardian.precio  }</div></div>
           <div className="detail campoMarker">
           <h1 className= 'tituloMark'>Valoracion:</h1>
           <div> {dato.datos_guardian.valoracion}</div></div>

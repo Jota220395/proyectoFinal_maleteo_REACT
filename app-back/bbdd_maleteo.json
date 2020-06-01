@@ -91,6 +91,7 @@
                 "lng":-3.63071723
             },
             "capacidad_maletas": 234,
+            "precio": "1000€",
             "titulo": "El palacete de Aguirre",
             "disponibilidad":"Sabados-Domingos",
             "no_disponible":
@@ -116,6 +117,7 @@
                 "lng":-3.73705556
             },
             "capacidad_maletas": 4,
+            "precio": "16€",
             "titulo": "El trastero de Teda, Quin",
             "disponibilidad": "Lunes-Viernes",
             "no_disponible":
@@ -141,6 +143,7 @@
                 "lng":-3.73457809
             },
             "capacidad_maletas": 2,
+            "precio": "10€",
             "titulo": "El hall de Skyler",
             "disponibilidad":"Sabados-Domingos",
             "no_disponible":
@@ -169,6 +172,61 @@
         "edad":29,
         "foto": "vacio",
         "guardian": "False"
+    },
+
+    {
+        "nombre": "Fernando",
+        "apellido": "Esteso",
+        "email": "mi@destape.org",
+        "password": "tortor",
+        "edad":33,
+        "foto": "vacio",
+        "guardian": "True",
+        "datos_guardian": {
+            "ubicacion": {
+                "lat":40.44897932,
+                "lng": -3.65318272
+            },
+            "capacidad_maletas": 10,
+            "precio": "15€",
+            "titulo": "El hall de Dalton",
+            "disponibilidad":"Lunes-Viernes",
+            "no_disponible":
+                ["17-06-2020", 
+                "07-08-2020",
+                "02-02-2020",
+                "29-11-2020"
+                ],
+            "valoracion": 3
+        }
+    },
+
+    {
+        "nombre": "Ester",
+        "apellido": "Colero",
+        "email": "mimimi@blablalis.org",
+        "password": "admin",
+        "edad":40,
+        "foto": "vacio",
+        "guardian": "True",
+        "datos_guardian": {
+            "ubicacion": {
+                "lat":40.466285,
+                "lng": -3.699363
+            },
+            "capacidad_maletas": 15,
+            "precio": "12€",
+            "titulo": "La chabola de Ester",
+            "disponibilidad":"Lunes-Viernes",
+            "no_disponible":
+                ["20-01-2020", 
+                "07-09-2020",
+                "20-10-2020",
+                "01-04-2020"
+                ],
+            "valoracion": 1
+        }
     }
+    
 
  ]
